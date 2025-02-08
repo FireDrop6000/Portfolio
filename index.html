@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Website</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/35b04307ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="pageBody">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbarScroll">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pratik</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero Header-->
+    <section class="bgimage" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 hero-text">
+            <h2 class="hero_title">Hello, I'm Pratik</h2>
+            <p class="hero_desc">
+              "I believe in nothing lesser than Excellence and Perfection"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about">
+      <div class="container mt-4 pt-4">
+        <h1 class="text-left">About Me</h1>
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/about.jpg" class="imageAboutPage" alt="" />
+          </div>
+
+          <div class="col-lg-8 aboutText">
+            <p>
+              I am a 23 year old Computer Science engineer from Kolkata, WB,
+              India. I was born and brought up here. I completed my 10th and
+              12th Standard graduation from Mansur Habibullah Memorial School
+              and my Bachelor's graduation from Government College of
+              Engineering and Leather Technology. Throughout my academic and
+              non-academic career I have practised disciplined hard work.
+            </p>
+            <div class="row mt-3">
+              <div class="col-md-6">
+                <p><b>Academic:</b></p>
+                <ul>
+                  <li>ICSE <i>(graduated 2018)</i> : 94%</li>
+                  <li>ISC <i>(graduated 2020)</i> : 95%</li>
+                  <li>BTech <i>(graduated 2024)</i> : 9.18</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <p><b>Non Academic:</b></p>
+                <ul>
+                  <li>7th Year graduate in Bengali Recitation <i>(2019)</i></li>
+                  <li>
+                    Awarded with <i>Abritti Ratna</i> by
+                    <i>Bangiya Sangit Parishad</i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row mt-0">
+              <p>
+                I specialize in Java Application and API Development using
+                Spring Boot MVC and its peripherals. Being a CS engineer also
+                prepared me for DSA as well as DBMS. I've also had experience
+                with numerous other languages, tools and frameworks, both
+                conventional and non-conventional, along with experience in
+                working on Linux platforms in general. As a human being, I bring
+                in honesty and integrity along with discipline and a humble
+                attitude towards excellence and perfection to the table. I use
+                the word "humble" to justify that I have an open mind to learn,
+                and to adapt, innovate and tackle any situation I find myself
+                in.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills & Experiences-->
+    <section id="services">
+      <div class="container">
+        <h1 class="text-left">Services</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fab servicesIcon fa-java"></i>
+                <h4 class="card-title mt-3">Java Development</h4>
+                <p class="card-text mt-3">
+                  I have firsthand experience in Java and OOPs. Moreover,
+                  attained experience and knowledge about the industry standards
+                  to Java such as Spring Boot MVC and Maven.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-database"></i>
+                <h4 class="card-title mt-3">Database Management</h4>
+                <p class="card-text mt-3">
+                  Experience with various DBMS(s), namely, MySQL, PostgreSQL and
+                  NoSQL as well (MongoDB). Along with that, experience in
+                  database integration with Java ORMs like JDBC, Hibernate, JPA
+                  and Spring-JPA.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fab servicesIcon fa-git-alt"></i>
+                <h4 class="card-title mt-3">Code Deployment</h4>
+                <p class="card-text mt-3">
+                  Fully finished code deployment in the form of WAR, JAR of
+                  RESTful APIs or webpage. Experienced in Git for collaboration
+                  and deployment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-globe"></i>
+                <h4 class="card-title mt-3">Web Services</h4>
+                <p class="card-text mt-3">
+                  Experienced in web development. Such include HTML5, basic CSS,
+                  Bootstrap templates as well as basic Javascript for web
+                  development. Also experienced in Java based web services like
+                  JSP and Web Servlets.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-shield-alt"></i>
+                <h4 class="card-title mt-3">Security & Authorization</h4>
+                <p class="card-text mt-3">
+                  Experience in Java based authentication frameworks like Spring
+                  Security. Implementing various authentication and
+                  authorization levels through an application or and API.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-vials"></i>
+                <h4 class="card-title mt-3">Testing</h4>
+                <p class="card-text mt-3">
+                  All deployed applications are put in through unit testing
+                  beforehand by JUnit5. Each component is tested and debugged
+                  individually.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+      <div class="container mt-3">
+        <h1 class="text-left">Portfolio</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div
+              class="card portfolio-card portfolio-card-unfocused"
+              onmouseover="cardHover(this)"
+              onmouseout="cardUnfocus(this)"
+            >
+              <img
+                class="card-img-top"
+                src="images/portfolioImage1.jpg"
+                alt="Inventory"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Inventory Management System</h4>
+                <p class="card-text" id="inventory">
+                  Developed a lightweight, high-performance Inventory Management
+                  Software adhering to industry standards, featuring a
+                  user-friendly interface tailored for warehouse workers, with
+                  robust transaction tracking, emergency alerting, and
+                  compatibility with industrial systems, while leveraging
+                  stakeholder feedback, code reviews, and iterative development
+                  for timely delivery.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://github.com/FireDrop6000/PROJECT"
+                    target="_self"
+                    class="btn custom-btn"
+                  >
+                    <i class="fab linkIcon fa-github"></i> Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div
+              class="card portfolio-card portfolio-card-unfocused"
+              onmouseover="cardHover(this)"
+              onmouseout="cardUnfocus(this)"
+            >
+              <img
+                class="card-img-top"
+                src="images/portfolioImage4.jpg"
+                alt="Journal"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Journal Application API</h4>
+                <p class="card-text" id="journal">
+                  Designed and developed a role-based API using Spring Boot MVC,
+                  Spring Data JPA, and MongoDB Atlas to enable multi-user
+                  journal entry management with functionalities for submission,
+                  editing, and deletion. Implemented authentication and
+                  authorization using Spring Security to ensure secure access
+                  control.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://github.com/FireDrop6000/JournalApp"
+                    target="_self"
+                    class="btn custom-btn"
+                  >
+                    <i class="fab linkIcon fa-github"></i> Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div
+              class="card portfolio-card portfolio-card-unfocused"
+              onmouseover="cardHover(this)"
+              onmouseout="cardUnfocus(this)"
+            >
+              <img
+                class="card-img-top"
+                src="images/portfolioImage3.jpg"
+                alt="Sentiment"
+                style="width: 100%"
+              />
+              <div class="card-body">
+                <h4 class="card-title">X Sentiment Analysis Extension</h4>
+                <p class="card-text">
+                  Developed and deployed a Sentiment Analyzer to classify tweets
+                  during high-traffic events, achieving a 15% accuracy
+                  improvement through real-time feedback, fine-tuning and
+                  optimized language patterns. Enhanced prediction efficiency by
+                  32% using advanced feature extraction techniques, benchmarked
+                  against pre-trained models, and created a browser extension to
+                  fetch and analyze real-time tweets with sentiment
+                  categorization and percentage breakdowns.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://github.com/FireDrop6000/TwitterSentimentAnalysis"
+                    target="_self"
+                    class="btn custom-btn"
+                  >
+                    <i class="fab linkIcon fa-github"></i> Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+        <h1 class="text-left">Contact Me</h1>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div
+              style="
+                max-width: 100%;
+                overflow: hidden;
+                color: red;
+                width: 500px;
+                height: 500px;
+              "
+            >
+              <div
+                id="embedmap-canvas"
+                style="height: 100%; width: 100%; max-width: 100%"
+              >
+                <iframe
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  loading="lazy"
+                  allowfullscreen
+                  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLcrPfGhyAjoR3U-eYouMI5Y&key=AIzaSyCH2kG_JfAgqb7LwQnvLLh8RZ11PQBxGEM"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <!-- form fields -->
+            <form>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                class="form-control mt-3"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                class="form-control mt-3"
+                placeholder="Subject"
+              />
+              <div class="mb-3 mt-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  id="comment"
+                  name="text"
+                  placeholder="Project Details"
+                ></textarea>
+              </div>
+            </form>
+            <button type="button" class="btn submit-btn mt-3">
+              Contact Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section-->
+    <footer id="footer">
+      <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><i class="fab fa-x-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.twitch.tv/" target="_blank"
+            ><i class="fab fa-reddit-alien"></i
+          ></a>
+        </div>
+        <div class="credits"><p>Made with ❤️ using Catppuccin 🌈</p></div>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

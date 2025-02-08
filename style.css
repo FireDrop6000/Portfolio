@@ -1,0 +1,212 @@
+@import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
+
+/* Page Body */
+.pageBody {
+  background-color: var(--ctp-latte-base);
+}
+
+/* Navbar custom */
+a.navbar-brand,
+a.nav-link {
+  color: var(--ctp-latte-red) !important;
+}
+
+a.navbar-brand:hover,
+a.nav-link:hover {
+  color: var(--ctp-latte-mauve) !important;
+}
+
+a.navbar-brand {
+  font-weight: bold;
+}
+
+/* display background color black on navbar scroll */
+.navbar {
+  transition: all 0.5s;
+}
+.navbarDark {
+  background-color: var(--ctp-latte-crust);
+}
+a.brandScrolled {
+  color: var(--ctp-latte-subtext1) !important;
+}
+a.linkScrolled {
+  color: var(--ctp-latte-subtext1) !important;
+}
+
+/* Hero Header */
+.bgimage {
+  height: 100vh;
+  background: url("images/heroImage.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+/* Text overlay */
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 1.35rem;
+  font-style: italic;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  color: var(--ctp-latte-text);
+}
+
+/* About Section */
+.imageAboutPage {
+  width: 100%;
+}
+.aboutText {
+  text-align: justify;
+}
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+  background-color: var(--ctp-latte-surface2);
+  color: var(--ctp-latte-subtext0);
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transition: all 0.5s;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: var(--ctp-latte-red);
+}
+.servicesText:hover {
+  border: 1px solid var(--ctp-latte-red);
+  color: var(--ctp-latte-text);
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s;
+}
+
+/* Card */
+.portfolio-card {
+  transition: all 0.5s;
+}
+.portfolio-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.portfolio-card-unfocused.card {
+  background-color: var(--ctp-latte-surface2);
+  color: var(--ctp-latte-subtext0);
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.portfolio-card-unfocused .card-img-top {
+  filter: grayscale(100%);
+}
+.portfolio-card-unfocused .custom-btn {
+  background-color: var(--ctp-latte-overlay2);
+}
+.card-text {
+  text-align: justify;
+  min-height: 250px !important;
+}
+
+/* Buttons */
+a.custom-btn {
+  background-color: var(--ctp-latte-teal);
+  color: var(--ctp-latte-text);
+}
+a.custom-btn:hover {
+  background-color: var(--ctp-latte-green);
+  color: var(--ctp-latte-base);
+}
+
+/* Button links */
+.linkIcon {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Submit button */
+.submit-btn.btn {
+  background-color: var(--ctp-latte-teal);
+  color: var(--ctp-latte-base);
+  transition: all 0.5s;
+}
+.submit-btn.btn:hover {
+  background-color: var(--ctp-latte-green);
+  color: var(--ctp-latte-base);
+  transition: all 0.5s;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-x-twitter:hover,
+.fa-linkedin:hover,
+.fa-reddit-alien:hover {
+  transition: all 0.5s;
+}
+
+.fa-facebook:hover {
+  color: var(--ctp-latte-blue);
+}
+.fa-instagram:hover {
+  color: var(--ctp-latte-pink);
+}
+.fa-x-twitter:hover {
+  color: #000;
+}
+.fa-linkedin:hover {
+  color: var(--ctp-latte-sapphire);
+}
+.fa-reddit-alien:hover {
+  color: var(--ctp-latte-red);
+}
+.fab {
+  color: var(--ctp-latte-subtext1);
+  transition: all 0.5s;
+}
+/* footer styling */
+#footer {
+  background-color: var(--ctp-latte-surface2);
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.credits {
+  color: var(--ctp-latte-text);
+  font-family: "Courier New";
+  font-size: 10px;
+  cursor: default;
+}
+
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#services {
+  margin-top: 9rem;
+}
+#contact {
+  padding-bottom: 0px;
+}
