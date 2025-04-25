@@ -38,8 +38,10 @@ a.linkScrolled {
 .bgimage {
   height: 100vh;
   background: url("images/heroImage.jpg");
-  background-size: cover;
+  background-size: 55%;
   position: relative;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 /* Text overlay */
@@ -53,10 +55,37 @@ a.linkScrolled {
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 29%;
   transform: translate(-50%, -50%);
   color: var(--ctp-latte-text);
+}
+
+@media only screen and (max-width: 1340px) {
+  .bgimage {
+    background-size: 90%;
+    background-position: top;
+  }
+  .hero-text {
+    text-align: center;
+    left: 50%;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .hero_title {
+    font-size: 5.75vw;
+  }
+  .hero_desc {
+    font-size: 1.75vw;
+  }
+}
+
+@media only screen and (max-width: 1045px) {
+  .bgimage {
+    background-position: center;
+  }
 }
 
 /* About Section */
